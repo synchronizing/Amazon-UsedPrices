@@ -42,7 +42,12 @@ def lookUp(search):
 
 arguments = sys.argv
 if(arguments[1] == "-f"):
-    bookfile = open(sys.argv[2])
+    try:
+        bookfile = open(sys.argv[2])
+    except IndexError:
+        print("Error: Please add a valid input file.")
+        sys.exit()
+
     books = [line.rstrip('\n\r') for line in bookfile]
     output = open("output.txt", 'w')
     bar = Bar('Processing', max=len(books))
