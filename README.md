@@ -59,6 +59,19 @@ Error. Could not find 978044657
 
 ```
 
+#Depedencies
+
+The following depedencies are required:
+
+```
+beautifulsoup4
+requests
+progress
+```
+
+To install them, simply open a command line and do the following:
+
+```pip install beautifulsoup4 request progress```
 
 
 
