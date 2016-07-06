@@ -1,6 +1,8 @@
 # Amazon Used Prices Scraper
 Scrape any product used price off of Amazon.com. Tool is meant for bulk-searches, but can also be used for individual products. Can pull info from either the command line, or from an input file.
 
+Examples bellow utilize only ISBN numbers, but you may use any search queries.
+
 ## Arguments
 
 ####-d: Pull directly from command line.
@@ -15,7 +17,7 @@ or
 
 ####-d
 ```
-~$ python new.py -d 9780385495646
+~$ python main.py -d 9780385495646
 Type 'exit' to exit.
 
 0.01	Ghost Soldiers: The Forgotten Epic Story of World War II's Most Dramatic Mission
@@ -27,7 +29,7 @@ Input: exit
 
 ####-f
 ```
-~$ python new.py -f input.txt
+~$ python main.py -f input.txt
 Processing |######                          | 1/5	Processing: 9780385495646
 Processing |############                    | 2/5	Processing: 9780786300013
 Processing |###################             | 3/5	Processing: 9780446572
