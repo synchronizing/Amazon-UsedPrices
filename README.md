@@ -8,7 +8,7 @@ Examples bellow utilize only ISBN numbers, but you may use any search queries.
 ####-d: Pull directly from command line.
 ```python main.py -d```
 or
-```python main.py -d [Search Query]```
+```python main.py -d [First search query]```
 
 ####-f: Pull from file.
 ```python main.py -f input.txt```
