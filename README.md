@@ -35,6 +35,7 @@ Processing |#########################       | 4/5	Processing: 9780446578141
 Processing |################################| 5/5	Processing: 978044657
 Finished with 2 error(s). Saved to output.txt.
 
+~$
 ```
 
 #####input.txt
