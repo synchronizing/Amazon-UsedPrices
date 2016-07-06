@@ -1,4 +1,4 @@
-# Amazon Used Prices Scraper
+# Amazon Used Price Scraper
 Scrape any product used price off of Amazon.com. Tool is meant for bulk-searches, but can also be used for individual products. Can pull info from either the command line, or from an input file.
 
 Examples bellow utilize only ISBN numbers, but you may use any search queries.
