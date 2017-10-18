@@ -5,17 +5,17 @@ Examples bellow utilize only ISBN numbers, but you may use any search queries.
 
 ## Arguments
 
-####-d: Pull directly from command line.
+#### -d: Pull directly from command line.
 ```python main.py -d```
 or
 ```python main.py -d [First search query]```
 
-####-f: Pull from file.
+#### -f: Pull from file.
 ```python main.py -f input.txt```
 
 ## Examples
 
-####-d
+#### -d
 ```
 ~$ python main.py -d 9780385495646
 Type 'exit' to exit.
@@ -27,7 +27,7 @@ Input: exit
 ~$ 
 ```
 
-####-f
+#### -f
 ```
 ~$ python main.py -f input.txt
 Processing |######                          | 1/5	Processing: 9780385495646
@@ -40,7 +40,7 @@ Finished with 2 error(s). Saved to output.txt.
 ~$
 ```
 
-#####input.txt
+##### input.txt
 ```
 9780385495646
 9780786300013
@@ -49,7 +49,7 @@ Finished with 2 error(s). Saved to output.txt.
 978044657
 ```
 
-#####output.txt
+##### output.txt
 ```
 0.01	Ghost Soldiers: The Forgotten Epic Story of World War II's Most Dramatic Mission
 0.83	The Handbook of Fixed Income Securities
@@ -59,7 +59,7 @@ Error. Could not find 978044657
 
 ```
 
-#Depedencies
+# Depedencies
 
 The following depedencies are required:
 
